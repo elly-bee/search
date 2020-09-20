@@ -139,8 +139,11 @@ div.googleimg div {
 	min-width: 54px;
 	text-align: center;
 	cursor: pointer;
-  user-select: none;
+  	user-select: none;
+}
 
+.btn a{
+	color: #5F6368;
 }
 
 .btn:hover {
@@ -148,6 +151,10 @@ div.googleimg div {
   border: 0.5px solid lightgrey;
   outline:none;
 }
+.btn a:hover{
+	color: #5F6368;
+}
+
 
 
 /*****top bar for Advanced Search*****/
@@ -180,7 +187,7 @@ div.googleimg div {
 #imglog {
 	width: 100px;
 	height: 50px;
-	background: url('googlelogo.png') no-repeat;
+	background: url('../img/googlelogo.png') no-repeat;
 	background-size: 92px 33px;
 	background-position: 22px 1px;
 	z-index: 1;
